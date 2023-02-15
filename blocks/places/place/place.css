@@ -1,0 +1,11 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "title web"
+  "pic par-top"
+  "pic par-bottom";
+
+  gap: 26px 40px;
+}

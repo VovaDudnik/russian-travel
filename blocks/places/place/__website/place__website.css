@@ -1,0 +1,5 @@
+.place__website {
+  grid-area:web;
+  display: grid;
+  place-items: stretch end;
+}
