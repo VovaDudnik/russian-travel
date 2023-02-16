@@ -1,5 +1,5 @@
 .place__website {
   grid-area:web;
-  display: grid;
-  place-items: stretch end;
+  text-align:start;
+  align-self: self-end;
 }
