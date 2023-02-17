@@ -7,7 +7,7 @@
   line-height: 163%;
   /* or 29px */
   color: #FFFFFF;
-  grid-area:par;
+  grid-area:paragraph;
   grid-row: 2 / 3;
   grid-row: 3 / 4;
   }

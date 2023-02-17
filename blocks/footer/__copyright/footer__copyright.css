@@ -1,0 +1,11 @@
+.footer__сopyright {
+width: 186px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+grid-area: copyright;
+margin: 0;
+}

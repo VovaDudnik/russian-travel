@@ -1,0 +1,8 @@
+.footer {
+  display: grid;
+  grid-template-rows: 20px;
+  grid-template-columns: max-content 1fr max-content;
+  grid-template-areas:
+  "links . copyright";
+  margin: 0 48px 24px;
+}
