@@ -1,13 +1,12 @@
 .place__paragraph {
-  width: 484px;
+  max-width: 484px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
-  /* or 29px */
+  line-height: 1.6;
   color: #FFFFFF;
-  grid-area:paragraph;
+  grid-area:text;
   grid-row: 2 / 3;
   grid-row: 3 / 4;
   }

@@ -3,9 +3,20 @@
   grid-template-columns: 460px 484px;
   grid-template-areas:
   "title web"
-  "pic paragraph"
-  "pic paragraph";
+  "pic text"
+  "pic text";
   gap: 48px 40px;
   margin: 0 auto 80px;
   justify-content: center;
+}
+@media (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 456px;
+    grid-template-areas:
+    "title web"
+    "pic text"
+    "pic text";
+    gap: 48px 32px;
+    margin: 0 auto 80px;
+  }
 }

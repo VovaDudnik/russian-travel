@@ -24,3 +24,11 @@ margin: 12px 48px 92px;
 .cover:hover::before {
 opacity: 0.3;
 }
+
+@media (max-width: 1024px) {
+  .cover {
+    margin: 12px 0 92px;
+    width: 1024px;
+    height: 640px;
+  }
+}
