@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
   max-width: 456px;
   font-family: 'Inter';
   font-style: normal;
@@ -8,7 +8,7 @@
   text-decoration-line: underline;
   color: #FFFFFF;}
 
-.website__link:hover {
+.place__link:hover {
   background: #2A2C2F;
   opacity: 0.8;
 }
