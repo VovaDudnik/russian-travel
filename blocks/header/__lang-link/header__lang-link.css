@@ -1,14 +1,19 @@
 .header__lang-link {
-list-style-type: none;
-display: inline-flex;
-width: 30px;
-height: 28px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-text-align: right;
-text-decoration-line: underline;
-color: #FFFFFF;
+  list-style-type: none;
+  display: inline-flex;
+  max-width: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
+
+@media (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
 }

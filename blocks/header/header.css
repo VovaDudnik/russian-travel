@@ -2,6 +2,16 @@
 display: flex;
 justify-content: space-between;
 margin: 28px 48px auto;
-height: 52px;
 align-items: flex-end;
+}
+@media (max-width: 768px) {
+  .header {
+    margin: 28px 24px auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    margin: 16px 16px auto;
+  }
 }

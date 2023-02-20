@@ -1,5 +1,13 @@
 .footer__links {
-  grid-area: links;
   margin: 0;
-  width: fit-content;
+  padding: 0;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+@media (max-width: 767px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+  }
 }

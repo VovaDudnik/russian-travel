@@ -1,5 +1,6 @@
 .place__website {
   grid-area:web;
   text-align:start;
-  align-self: self-end;
+  align-self:flex-start;
+  margin: 0 16px 0;
 }

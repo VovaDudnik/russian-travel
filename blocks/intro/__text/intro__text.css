@@ -16,11 +16,13 @@
 }
 @media (max-width: 768px) {
   .intro__text {
-    margin: 0 24px 33px 24px;
+    margin: 0 auto 33px;
+    width: calc(100% - 24px*2);
   }
 }
 @media (max-width: 320px) {
   .intro__text {
-    margin: 0 16px 33px 16px;
+    margin: 0 auto 34px;
+    width: calc(100% - 16px*2);
   }
 }

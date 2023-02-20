@@ -1,17 +1,31 @@
 .intro__list {
-margin: 0 442px 92px 148px;
-padding: 0;
-max-width: 690px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 1.5;
-color: #FFFFFF;
-list-style-type: none;
+  margin: 0 442px 92px 148px;
+  padding: 0;
+  max-width: 690px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  list-style-type: none;
 }
+
 @media (max-width: 1024px) {
   .intro__list {
     margin: 0 286px 92px 48px;
   }
+}
+
+@media (max-width: 768px) {
+  .intro__list {
+    margin: 0 auto 88px;
+    width: calc(100% - 24px*2);
   }
+}
+@media (max-width: 320px) {
+  .intro__list  {
+    margin: 0 auto 64px;
+    width: calc(100% - 16px*2);
+  }
+}

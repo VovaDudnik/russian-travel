@@ -1,22 +1,44 @@
 .place {
   display: grid;
   grid-template-columns: 460px 484px;
+  grid-template-rows: max-content 460px;
   grid-template-areas:
   "title web"
   "pic text"
   "pic text";
   gap: 48px 40px;
-  margin: 0 auto 80px;
+  margin: 0 auto;
+  margin-bottom: 32px;
   justify-content: center;
+
 }
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .place {
     grid-template-columns: 440px 456px;
-    grid-template-areas:
-    "title web"
-    "pic text"
-    "pic text";
+    grid-template-rows: max-content 440px;
     gap: 48px 32px;
-    margin: 0 auto 80px;
+
+  }
+}
+@media (max-width: 1023px) {
+  .place {
+    grid-template-columns: 340px 352px;
+    grid-template-rows: max-content 440px;
+    gap: 48px 28px;
+
+  }
+}
+@media (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 46px max-content 1fr;
+    gap: 32px;
+    grid-template-areas:
+    "title"
+    "web"
+    "pic"
+    "text";
+
+
   }
 }
