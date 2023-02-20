@@ -3,7 +3,7 @@
   max-width: 1184px;
   width: calc(100% - 48px*2);
   display: grid;
-  grid-template-columns: repeat(4, 1fr) ;
+  grid-template-columns: repeat(4, 1fr);
   /*grid-template-rows: repeat(3, 1fr);*/
   gap: 16px 16px;
   margin: 0 auto 92px;
