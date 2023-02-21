@@ -9,18 +9,18 @@
   line-height: 1.1;
   color: #FFFFFF;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1279px) {
   .intro__title {
     margin: 92px 286px 40px 48px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .intro__title {
     margin: 88px auto 40px;
     width: calc(100% - 24px*2);
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .intro__title {
     font-size: 32px;
     line-height: 1.1;

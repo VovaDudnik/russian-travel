@@ -9,18 +9,18 @@
   line-height: 1.7;
   color: #FFFFFF;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .intro__text {
     margin: 0 286px 33px 48px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .intro__text {
     margin: 0 auto 33px;
     width: calc(100% - 24px*2);
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .intro__text {
     margin: 0 auto 34px;
     width: calc(100% - 16px*2);
