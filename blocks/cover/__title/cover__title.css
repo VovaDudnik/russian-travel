@@ -5,18 +5,18 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.1;
+  line-height: 106%;
   text-align: center;
   color: #FFFFFF;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 36px;
   text-decoration: none;
 }
 
 @media (max-width: 767px) {
   .cover__title {
     font-size: 32px;
-    line-height: 1.1;
+    line-height: 109%;
     /*width: 70%;*/
     margin-bottom: 16px;
     width: 100%;

@@ -1,8 +1,8 @@
 .place__website {
   grid-area:web;
   text-align:start;
-  align-self:flex-start;
-  margin: 0 16px 0;
+  align-self:flex-end;
+  margin: 0;
 }
 @media (max-width: 767px) {
   .place__website {

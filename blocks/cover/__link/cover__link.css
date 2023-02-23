@@ -17,6 +17,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   align-items: center;
+  margin-top: 12px;
 }
 
 .cover__link {
@@ -55,29 +56,31 @@
 
 @media (max-width: 1279px) {
   .cover__link {
-    margin: 12px auto 92px;
+    margin: 0 auto;
+    /*margin: 12px auto 92px;*/
     max-width: 1024px;
     min-height: 640px;
     width: 100%;
-
-
+    margin-top: 12px;
   }
 }
 
 @media (max-width: 1023px) {
   .cover__link {
-    margin: 8px auto 90px;
+    /*margin: 8px auto 90px;*/
     max-width: 768px;
     min-height: 480px;
-
-
+    margin-top: 8px;
+    margin-bottom: 75px;
   }
 }
 
 @media (max-width: 767px) {
   .cover__link {
-    margin: 66px auto 64px;
+    /*margin: 66px auto 64px;*/
     max-width: 320px;
     min-height: 200px;
+    margin-top: 66px;
+    padding: 33px 16px 33px 16px;
   }
 }

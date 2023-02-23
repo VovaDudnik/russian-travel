@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 1.1;
+  line-height: 107%;
   color: #FFFFFF;
 }
 @media (max-width: 1279px) {
@@ -16,7 +16,7 @@
 }
 @media (max-width: 1023px) {
   .intro__title {
-    margin: 88px auto 40px;
+    margin: 88px 24px 40px;
     width: calc(100% - 24px*2);
   }
 }
@@ -24,7 +24,7 @@
   .intro__title {
     font-size: 32px;
     line-height: 1.1;
-    margin: 64px auto 40px;
+    margin: 62px auto 40px;
     width: calc(100% - 16px*2);
   }
 }

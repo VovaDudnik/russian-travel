@@ -26,6 +26,6 @@
 
 @media (max-width: 767px) {
   .lead__caption {
-    margin: 8px calc(100% - 156px) 0 16px;
+    margin: 7px calc(100% - 156px) 0 16px;
   }
 }

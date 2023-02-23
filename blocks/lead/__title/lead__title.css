@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.1;
+  line-height: 100%;
   color: #FFFFFF;
   margin: 56px auto 32px;
 }
@@ -26,6 +26,6 @@
   .lead__title {
     margin: 48px auto 16px;
     font-size: 40px;
-    line-height: 1.1;
+    line-height: 110%;
   }
 }

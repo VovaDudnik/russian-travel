@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 1.2;
+  line-height: 120%;
   color: #FFFFFF;
   margin: 0 auto 64px;
 }
@@ -23,6 +23,6 @@
   .lead__subtitle  {
     margin: 0 auto 40px;
     font-size: 16px;
-    line-height: 1.25;
+    line-height: 125%;
   }
 }

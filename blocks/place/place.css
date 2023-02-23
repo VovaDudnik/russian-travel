@@ -3,15 +3,16 @@
   grid-template-columns: 460px 484px;
   grid-template-rows: max-content 460px;
   grid-template-areas:
-  "title web"
-  "pic text"
-  "pic text";
+    "title web"
+    "pic text"
+    "pic text";
   gap: 48px 40px;
   margin: 0 auto;
   margin-bottom: 32px;
   justify-content: center;
 
 }
+
 @media (max-width: 1279px) {
   .place {
     grid-template-columns: 440px 456px;
@@ -19,16 +20,22 @@
     gap: 48px 32px;
 
   }
+
+  .place:nth-child(5) {
+    margin-bottom: 44px;
+  }
 }
+
 @media (max-width: 1023px) {
   .place {
     grid-template-columns: 340px 352px;
-    grid-template-rows: max-content;
+    grid-template-rows: max-content max-content;
     gap: 48px 28px;
-    margin-bottom: 32px;
+    margin-bottom: 52px;
 
   }
 }
+
 @media (max-width: 767px) {
   .place {
     grid-template-columns: 1fr;
@@ -36,10 +43,10 @@
     gap: 32px;
     margin-bottom: 50px;
     grid-template-areas:
-    "title"
-    "web"
-    "pic"
-    "text";
+      "title"
+      "web"
+      "pic"
+      "text";
 
 
   }
