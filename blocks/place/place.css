@@ -34,8 +34,9 @@
     margin-bottom: 25px;
 
   }
+
   .place:first-child {
-    margin-bottom: 72px;
+    margin-bottom: 26px;
   }
 }
 
@@ -50,7 +51,8 @@
       "web"
       "pic"
       "text";
-
-
+  }
+  .place:first-child {
+    margin-bottom: 50px;
   }
 }
