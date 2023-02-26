@@ -31,8 +31,11 @@
     grid-template-columns: 340px 352px;
     grid-template-rows: max-content max-content;
     gap: 48px 28px;
-    margin-bottom: 52px;
+    margin-bottom: 25px;
 
+  }
+  .place:first-child {
+    margin-bottom: 72px;
   }
 }
 
